@@ -1,0 +1,277 @@
+version: "3.1"
+
+stories:
+#General stories
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: happy
+  steps:
+  - intent: affirm
+  - action: utter_affirm
+
+- story: unhappy
+  steps:
+  - intent: deny
+  - action: utter_deny
+
+#SURBHI'S CODE
+
+- story: account open path 10
+  steps:
+  - intent: bank_account_open
+  - action: utter_bank_account_open
+  - intent: saving_account
+  - action: utter_saving
+  - intent: digital_mode
+  - action: utter_digital_mode
+  - action: utter_did_that_help
+
+- story: saving account interest rate
+  steps:
+  - intent: interest_rate_savings
+  - action: utter_saving_interest
+
+- story: account open path 11
+  steps:
+  - intent: bank_account_open
+  - action: utter_bank_account_open
+  - intent: current_account
+  - action: utter_current
+  - intent: digital_mode
+  - action: utter_digital_mode
+  - action: utter_did_that_help
+
+
+- story: account open path 20
+  steps:
+  - intent: bank_account_open
+  - action: utter_bank_account_open
+  - intent: saving_account
+  - action: utter_saving
+  - intent: physical_mode
+  - action: utter_physical_mode
+  - action: utter_did_that_help
+
+
+- story: account open path 20
+  steps:
+  - intent: bank_account_open
+  - action: utter_bank_account_open
+  - intent: current_account
+  - action: utter_current
+  - intent: physical_mode
+  - action: utter_physical_mode
+  - action: utter_did_that_help
+
+- story: safety deposit locker
+  steps:
+  - intent: safe_deposit_locker
+  - action: utter_safe_deposit_locker
+
+- story: saving variant path 1
+  steps:
+  - intent: saving_account_variants
+  - action: utter_saving_account_variants
+  - intent: silver
+  - action: utter_silver_savings
+
+- story: saving variant path 2
+  steps:
+  - intent: saving_account_variants
+  - action: utter_saving_account_variants
+  - intent: gold
+  - action: utter_gold_savings
+
+- story: saving variant path 3
+  steps:
+  - intent: saving_account_variants
+  - action: utter_saving_account_variants
+  - intent: diamond
+  - action: utter_diamond_savings
+
+- story: current variant path 1
+  steps:
+  - intent: current_account_variants
+  - action: utter_current_account_variants
+  - intent: silver
+  - action: utter_silver_current
+
+- story: current variant path 2
+  steps:
+  - intent: current_account_variants
+  - action: utter_current_account_variants
+  - intent: gold
+  - action: utter_gold_current
+
+- story: current variant path 3
+  steps:
+  - intent: current_account_variants
+  - action: utter_current_account_variants
+  - intent: diamond
+  - action: utter_diamond_current
+
+- story: current variant path 4
+  steps:
+  - intent: current_account_variants
+  - action: utter_current_account_variants
+  - intent: institutional
+  - action: utter_institutional_current
+
+#ADITYA'S part of code
+
+- story: interest rate path 1
+  steps:
+  - intent: interest_rate
+  - action: utter_ir
+  - intent: Fixed_deposit_ir
+  - action: utter_fd
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_affirm
+
+- story: interest rate path 2
+  steps:
+  - intent: interest_rate
+  - action: utter_ir
+  - intent: Fixed_deposit_ir
+  - action: utter_fd
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_deny
+
+- story: interest rate path 3
+  steps:
+  - intent: interest_rate
+  - action: utter_ir
+  - intent: reccuring_deposit_ir
+  - action: utter_rd
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_affirm
+
+
+- story: interest rate path 4
+  steps:
+  - intent: interest_rate
+  - action: utter_ir
+  - intent: reccuring_deposit_ir
+  - action: utter_rd
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_deny
+
+- story: interest rate path 5
+  steps:
+  - intent: interest_rate
+  - action: utter_ir
+  - intent: non_callable_Fixed_deposit_ir
+  - action: utter_ncfd
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_affirm
+
+
+- story: interest rate path 6
+  steps:
+  - intent: interest_rate
+  - action: utter_ir
+  - intent: non_callable_Fixed_deposit_ir
+  - action: utter_ncfd
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_deny
+
+
+- story: interest rate path 7
+  steps:
+  - intent: interest_rate
+  - action: utter_ir
+  - intent: Tax_saver_Fixed_deposit_ir
+  - action: utter_tsfd
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_affirm
+
+
+- story: interest rate path 8
+  steps:
+  - intent: interest_rate
+  - action: utter_ir
+  - intent: Tax_saver_Fixed_deposit_ir
+  - action: utter_tsfd
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_deny
+
+
+- story: interest rate path 9
+  steps:
+  - intent: fd_info_ir
+  - action: utter_inffd
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_affirm
+
+
+- story: interest rate path 10
+  steps:
+  - intent: fd_info_ir
+  - action: utter_inffd
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_deny
+
+- story: interest rate path 11
+  steps:
+  - intent: rd_info_ir
+  - action: utter_infrd
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_affirm
+
+
+- story: interest rate path 12
+  steps:
+  - intent: rd_info_ir
+  - action: utter_infrd
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_deny
+
+- story: interest rate path 13
+  steps:
+  - intent: tsfd_info_ir
+  - action: utter_inftsfd
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_affirm
+
+
+- story: interest rate path 14
+  steps:
+  - intent: tsfd_info_ir
+  - action: utter_inftsfd
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_deny
+
+- story: interest rate path 15
+  steps:
+  - intent: ncfd_info_ir
+  - action: utter_infncfd
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_affirm
+
+
+- story: interest rate path 16
+  steps:
+  - intent: ncfd_info_ir
+  - action: utter_infncfd
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_deny

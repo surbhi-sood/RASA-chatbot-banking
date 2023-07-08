@@ -1,0 +1,276 @@
+version: "3.1"
+
+nlu:
+
+#General Intents
+
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - tata
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - ya
+    - it was
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - not at all
+    - nope
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+#SURBHI'S part of code
+
+- intent: bank_account_open
+  examples: |
+    - open account
+    - open bank account
+    - how to open bank account 
+    - account opening
+    - open account in SSFB
+
+- intent: saving_account
+  examples: |
+    - savings
+    - saving 
+    - saving account
+    - sa
+    - SA
+    - S.A
+    - S A 
+    - Saving acc.
+    - saving acc
+    - open savings
+    - open saving 
+    - open saving account
+    - open Saving acc.
+    - open saving acc
+
+- intent: current_account
+  examples: |
+    - current
+    - current account
+    - current acc.
+    - current acc
+    - ca
+    - CA
+    - C.A
+    - C A
+    - open current
+    - open current account
+    - open current acc.
+    - open current acc
+
+- intent: digital_mode
+  examples: | 
+    - digital mode
+    - digitally 
+    - digital
+    - tell about digital mode
+    - digital method
+    - online
+    - on laptop
+    - on phone
+    - at home
+    - on web site
+
+- intent: physical_mode
+  examples: | 
+    - physical mode
+    - in person
+    - offline
+    - physically
+    - by going to the branch
+    - at bank
+
+
+
+- intent: interest_rate_savings
+  examples: |
+    - interest rate on savings account
+    - IR on savings 
+    - rate of interest on savings account
+    - savings account interest rate
+
+- intent: safe_deposit_locker
+  examples: |
+    - safe deposit locker
+    - open a safe deposit locker
+    - ssfb safe deposit locker
+    
+- intent: saving_account_variants
+  examples: |
+    - variants of savings account 
+    - variants available of savings account
+    - saving account variant
+    - SA variant
+    - varieties of savings account in SSFB
+    - types of savings account
+    - saving account types
+
+
+- intent: current_account_variants
+  examples: |
+    - variants of current account 
+    - variants available of current account
+    - current account variant
+    - CA variant
+    - varieties of current account in SSFB
+    - types of current account
+    - current account types
+
+- intent: silver
+  examples: |
+    - silver
+    - silver variant 
+    - variant silver
+    - features of silver variant
+    - silver variant features
+
+- intent: gold
+  examples: | 
+    - gold 
+    - gold variant 
+    - variant gold
+    - features of gold variant
+    - gold variant features
+
+- intent: diamond
+  examples: |
+    - diamond 
+    - diamond variant 
+    - variant diamond
+    - features of diamond variant
+    - diamond variant features
+
+- intent: institutional
+  examples: |
+    - institutional
+    - institutional variant
+    - variant institutional
+    - features of institutional variant
+    - institutional variant features
+
+#ADITYA'S Part of code
+
+- intent: interest_rate
+  examples: |
+    - Interest rate
+    - Rate of interest
+    - what is the interest rate in your bank?
+    - Interest rate in SSFB
+
+- intent: Fixed_deposit_ir
+  examples: |
+    - Fixed Deposit interest
+    - FD interest
+    - Interest on FD
+    - Interest rate on fixed deposit.
+    - What is the interest rate on FD
+
+
+
+- intent: reccuring_deposit_ir
+  examples: |
+    - Reccuring deposit interest
+    - RD interest
+    - Interest on RD
+    - Interest rate on reccuring deposit.
+    - What is the interest rate on RD
+
+- intent: non_callable_Fixed_deposit_ir
+  examples: |
+    - Non-callable fixed Deposit interest
+    - Non callable FD interest
+    - Interest on non-callable FD
+    - Interest rate on non-callable fixed deposit.
+    - What is the interest rate on non-callable FD
+
+- intent: Tax_saver_Fixed_deposit_ir
+  examples: |
+    - Tax-saver fixed Deposit interest
+    - Tax saver FD interest
+    - Interest on Tax-saver FD
+    - Interest rate on tax-saver fixed deposit.
+    - What is the interest rate on tax-saver FD
+
+- intent: fd_info_ir
+  examples: |
+    - Additional information about FD.
+    - Perks of FD.
+    - What are the features of FD.
+    - Tell me the benefits of FD.
+    - Provide me more knowledge about FD.
+    - fd
+
+
+- intent: rd_info_ir
+  examples: |
+    - Additional information about RD.
+    - Perks of Reccuring deposit.
+    - What are the features of RD.
+    - Tell me the benefits of RD.
+    - Provide me more knowledge about RD.
+    - rd
+
+- intent: tsfd_info_ir
+  examples: |
+    - Additional information about Tax saver FD.
+    - Perks of Tax saver fixed deposit.
+    - What are the features of tax-saver FD.
+    - Tell me the benefits of tax-saver FD.
+    - Provide me more knowledge about Tax-saver fixed deposit.
+
+- intent: ncfd_info_ir
+  examples: |
+    - Additional information about Non-callable FD.
+    - Perks of non-callable fixed deposit.
+    - What are the features of non-callable FD.
+    - Tell me the benefits of non-callable FD.
+    - Provide me more knowledge about non-callable fixed deposit.
+
