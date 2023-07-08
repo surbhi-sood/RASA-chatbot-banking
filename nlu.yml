@@ -207,8 +207,11 @@ nlu:
 
 - intent: Fixed_deposit_ir
   examples: |
-    - Fixed Deposit interest
+    - Fixed Deposit interest 
+    - fixed deposit interest rate
     - FD interest
+    - FD interest rate
+    - fd interest rate
     - Interest on FD
     - Interest rate on fixed deposit.
     - What is the interest rate on FD
@@ -246,7 +249,8 @@ nlu:
     - What are the features of FD.
     - Tell me the benefits of FD.
     - Provide me more knowledge about FD.
-    - fd
+    - fd info 
+    - info on fd
 
 
 - intent: rd_info_ir
@@ -256,7 +260,9 @@ nlu:
     - What are the features of RD.
     - Tell me the benefits of RD.
     - Provide me more knowledge about RD.
-    - rd
+    - rd 
+    - info on rd's
+    - rd info
 
 - intent: tsfd_info_ir
   examples: |
@@ -265,6 +271,7 @@ nlu:
     - What are the features of tax-saver FD.
     - Tell me the benefits of tax-saver FD.
     - Provide me more knowledge about Tax-saver fixed deposit.
+    
 
 - intent: ncfd_info_ir
   examples: |
