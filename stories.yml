@@ -1,6 +1,7 @@
 version: "3.1"
 
 stories:
+
 #General stories
 
 - story: happy path
@@ -275,3 +276,114 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_deny
+
+#CODE by ANNU
+
+- story: money_transfer path
+  steps:
+  - intent: online_money_transfer
+  - action: utter_money_transfer
+
+- story: neft path 1
+  steps:
+  - intent: neft_transfer
+  - action: utter_neft_transfer
+  - intent: affirm
+  - action: utter_neft_process
+  - intent: affirm
+  - action: utter_neft_eligibility
+  - intent: affirm
+  - action: utter_neft_limits
+
+- story: neft path 2
+  steps:
+  - intent: neft_process
+  - action: utter_neft_process
+  - intent: affirm
+  - action: utter_neft_eligibility
+  - intent: affirm
+  - action: utter_neft_limits
+
+- story: neft path 3
+  steps:
+  - intent: neft_eligibility
+  - action: utter_neft_eligibility
+  - intent: affirm
+  - action: utter_neft_limits
+
+- story: neft path 4
+  steps:
+  - intent: neft_limits
+  - action: utter_neft_limits
+
+- story: neft path 5
+  steps:
+  - intent: neft_credited
+  - action: utter_neft_credited
+  - action: utter_did_that_help
+
+- story: imps path 1
+  steps:
+  - intent: imps_transfer
+  - action: utter_imps_transfer
+  - intent: affirm
+  - action: utter_imps_process
+  - intent: affirm
+  - action: utter_imps_limits
+
+- story: imps path 2
+  steps:
+  - intent: imps_process
+  - action: utter_imps_process
+  - intent: affirm
+  - action: utter_imps_limits
+
+- story: imps path 3
+  steps:
+  - intent: imps_limits
+  - action: utter_imps_limits
+
+- story: imps path 4
+  steps:
+  - intent: imps_credited
+  - action: utter_imps_credited
+  - action: utter_did_that_help
+
+- story: rtgs path 1
+  steps:
+  - intent: rtgs_transfer
+  - action: utter_rtgs_transfer
+  - intent: affirm
+  - action: utter_rtgs_limits
+
+- story: rtgs path 2
+  steps:
+  - intent: rtgs_limits
+  - action: utter_rtgs_limits
+
+- story: upi path 1
+  steps:
+  - intent: upi_transfer
+  - action: utter_upi_transfer
+  - intent: affirm
+  - action: utter_upi_process
+  - intent: affirm
+  - action: utter_upi_limits
+
+- story: upi path 2
+  steps:
+  - intent: upi_process
+  - action: utter_upi_process
+  - intent: affirm
+  - action: utter_upi_limits
+
+- story: upi path 3
+  steps:
+  - intent: upi_limits
+  - action: utter_upi_limits
+
+- story: upi path 4
+  steps:
+  - intent: upi_credited
+  - action: utter_upi_credited
+
