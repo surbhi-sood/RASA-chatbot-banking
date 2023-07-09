@@ -28,10 +28,26 @@ intents:
   - rd_info_ir
   - tsfd_info_ir
   - ncfd_info_ir
+  - online_money_transfer
+  - neft_transfer
+  - neft_process
+  - neft_eligibility
+  - neft_limits
+  - neft_credited
+  - imps_transfer
+  - imps_process
+  - imps_limits
+  - imps_credited
+  - rtgs_transfer
+  - rtgs_limits
+  - upi_transfer
+  - upi_process
+  - upi_limits
+  - upi_credited
 
 responses:
 
-  #General responses
+#General responses
   utter_greet:
   - text: "Hey! How can I help you?"
 
@@ -198,6 +214,88 @@ responses:
                   5)Enjoy quarterly compounding interest by opting for Re-investment FD  \n
                   6)Higher rate of interest for senior citizens"
 
+#CODE by ANNU
+
+  utter_money_transfer:
+  - text: "Online Fund Transfer through digital banking channels comes with options like \n 1) NEFT \n 2) RTGS \n 3) IMPS \n 4) UPI 
+            \n Which type of fund transfer do you want to know?"
+
+  utter_neft_transfer:
+  - text: " National Electronic Funds Transfer (NEFT) is a mode of online funds transfer that is introduced by the Reserve Bank of India (RBI). 
+            \n It quickly transfers money between banks throughout India.
+            \n NEFT Transfer is a money transfer system that allows individuals to transfer money from one bank account to another, using both online and offline mediums.
+            \n NEFT is available 24x7, 365 days via Internet Banking/Mobile Banking.
+            \n Do you want to transfer money through NEFT?"
+
+  utter_neft_process:
+  - text: " For transfering money through NEFT you have to follow the following steps:\n 1. Select “Transfer to other bank” from Funds Transfer section in NetBanking.
+            \n 2. Select account, beneficiary and enter the relevant details. ...
+            \n 3. Review the details, and, if all is correct, confirm to complete the process.
+            \n Do you want to go through the eligibility criteria of NEFT money transfer?"
+
+  utter_neft_eligibility:
+  - text: "NEFT service can be availed by individuals, corporates, and firms having accounts with any bank can use NEFT service. An individual, corporate, and firm can transact through NEFT with any other individual, firm, or corporate having account with the same bank or any other bank.
+            \n But there is a limit in money transfer when you transfer money through NEFT? If you want to know about the limits type yes."
+
+  utter_neft_limits:
+  - text: " NEFT transaction limit: Minimum amount limit is ₹1.00 and maximum amount limit per day is ₹ 10 Lakhs (upto total ₹25,000 within 24 hours after adding beneficiary)
+            \n To transfer amount more than ₹10 Lakhs you have to contact the branch. "
+
+  utter_neft_credited:
+  - text: "You can check your SMSs or emails to check NEFT status. As soon as the money is credited to the receiver's bank account, you will receive an SMS or an email notifying you of the same."
+
+  utter_imps_transfer:
+  - text: "IMPS and NEFT are among the most popular fund transfer options. The main difference between IMPS and NEFT is that IMPS allows money transfers from one bank account to another in real-time, while NEFT allows the direct transfer of funds via electronic devices from one bank branch to another.
+           IMPS is available 24x7, 365 days via Internet Banking/Mobile Banking
+           \n Do you want to transfer money through imps?"
+
+  utter_imps_process:
+  - text: " For transfering money through imps, you need to know the following steps: \n 1. Login to your mobile/internet banking account
+            \n 2. On the main page that appears, click on ‘Fund Transfer’ option
+            \n 3. Select ‘IMPS’ as your method of fund transfer
+            \n 4. Provide the beneficiary’s MMID and your MPIN to proceed
+            \n 5. Enter the amount that needs to be transferred
+            \n 6. Click on ‘Confirm’
+            \n 7. You might be asked to authenticate the transaction by submitting the OTP sent to your registered mobile number
+            \n 8. Enter the OTP and complete the transaction
+            \n But their are limits on money transfer when you transfer through IMPS that you must know. Type yes to know the limits. "
+
+  utter_imps_limits:
+  - text: " IMPS transaction limits: Minimum transaction amount is ₹1.00 and maximum amount is ₹5 Lakhs per transaction and maximum amount per day is upto ₹ 10 Lakhs (upto total ₹25,000 within 24 hours after adding beneficiary)
+            \n For transfering money more than maximum limit, you have to contact the branch."
+
+  utter_imps_credited:
+  - text: "IMPS service is real-time and also available on weekends and public holidays, the beneficiary is credited instantly, in case the funds are not transferred due to system issues, the TAT for the same is 5 days, for which the customer has to reach the Branch.
+           If your IMPS transaction times out or fails, check if your money has been debited from the account. If the money is not debited, you can wait for a few minutes and strike another transaction.
+           All you have to do is log in to your net banking account, enter your IMPS reference number and check the status of your transaction. Alternatively, you can also call your bank's customer support staff to find your IMPS reference number or to check your IMPS transaction status."
+
+  utter_rtgs_transfer:
+  - text: " RTGS stands for Real-time Gross Settlement, meaning that through this method, the money is transferred from one bank account to the other in real-time, without any delay.
+            \n RTGS is available 24x7, 365 days via Internet Banking/Mobile Banking.
+            \n Type 'yes' if you want to know about the limits put on the money to be transfered through RTGS."
+
+  utter_rtgs_limits:
+  - text: "RTGS is for tranfer of amounts greater than ₹ 2 lakhs and the Maximum amount of ₹ 10 Lakhs per day can be transferred online. There are No upper limit via RTGS through branch."
+
+  utter_upi_transfer:
+  - text: " Unified Payments Interface (UPI) is India’s real-time mobile payments system, developed by the National Payments Corporation of India (NPCI). It connects multiple bank accounts into a single mobile application, allowing immediate money transfer.
+            \n Yes, UPI is available 24x7, 365 days via Internet Banking/Mobile Banking.
+            \n UPI is a Strong, easy and seamless single click payment through PIN authentication.
+            \n Do you want to transfer money through upi? "
+
+  utter_upi_process:
+  - text: "For transfering money through upi you first need to \n 1) Launch the digital payment application and enter the recipient's UPI ID to send money using UPI ID. 
+          \n 2) The required transfer amount must then be entered, and your MPIN must be entered to confirm the transaction. 
+          \n 3) Your payment will be finished in a brief amount of time.
+          Fast pace of life and digitization has changed the face of payments with UPI (Unified Payment Interface) for customers. UPI has made transactions like sending money to other bank accounts, payments through mobile numbers, bill payments/recharge and much more. 
+          \n Shivalik Bank account holders can link their bank account for UPI through any UPI Apps available today and transact securely.
+          \n If you want to know about the limits put on money to be transfered through UPI please type 'yes'."
+
+  utter_upi_limits:
+  - text: "UPI Transfer Limit: Minimum transaction amount is ₹1.00 & maximum limit is ₹1 Lakh per customer per day."
+
+  utter_upi_credited:
+  - text: "You will get the details of the transactions made in the transaction history. You can check it through you UPI app."
 
 session_config:
   session_expiration_time: 60
