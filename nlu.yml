@@ -44,7 +44,7 @@ nlu:
     - correct
     - ya
     - it was
-    - thank you 
+    - thank you
 
 - intent: deny
   examples: |
@@ -71,23 +71,23 @@ nlu:
   examples: |
     - open account
     - open bank account
-    - how to open bank account 
+    - how to open bank account
     - account opening
     - open account in SSFB
 
 - intent: saving_account
   examples: |
     - savings
-    - saving 
+    - saving
     - saving account
     - sa
     - SA
     - S.A
-    - S A 
+    - S A
     - Saving acc.
     - saving acc
     - open savings
-    - open saving 
+    - open saving
     - open saving account
     - open Saving acc.
     - open saving acc
@@ -108,9 +108,9 @@ nlu:
     - open current acc
 
 - intent: digital_mode
-  examples: | 
+  examples: |
     - digital mode
-    - digitally 
+    - digitally
     - digital
     - tell about digital mode
     - digital method
@@ -121,7 +121,7 @@ nlu:
     - on web site
 
 - intent: physical_mode
-  examples: | 
+  examples: |
     - physical mode
     - in person
     - offline
@@ -130,11 +130,10 @@ nlu:
     - at bank
 
 
-
 - intent: interest_rate_savings
   examples: |
     - interest rate on savings account
-    - IR on savings 
+    - IR on savings
     - rate of interest on savings account
     - savings account interest rate
 
@@ -146,7 +145,7 @@ nlu:
 
 - intent: saving_account_variants
   examples: |
-    - variants of savings account 
+    - variants of savings account
     - variants available of savings account
     - saving account variant
     - SA variant
@@ -157,7 +156,7 @@ nlu:
 
 - intent: current_account_variants
   examples: |
-    - variants of current account 
+    - variants of current account
     - variants available of current account
     - current account variant
     - CA variant
@@ -168,23 +167,23 @@ nlu:
 - intent: silver
   examples: |
     - silver
-    - silver variant 
+    - silver variant
     - variant silver
     - features of silver variant
     - silver variant features
 
 - intent: gold
-  examples: | 
-    - gold 
-    - gold variant 
+  examples: |
+    - gold
+    - gold variant
     - variant gold
     - features of gold variant
     - gold variant features
 
 - intent: diamond
   examples: |
-    - diamond 
-    - diamond variant 
+    - diamond
+    - diamond variant
     - variant diamond
     - features of diamond variant
     - diamond variant features
@@ -208,7 +207,7 @@ nlu:
 
 - intent: Fixed_deposit_ir
   examples: |
-    - Fixed Deposit interest 
+    - Fixed Deposit interest
     - fixed deposit interest rate
     - FD interest
     - FD interest rate
@@ -250,7 +249,7 @@ nlu:
     - What are the features of FD.
     - Tell me the benefits of FD.
     - Provide me more knowledge about FD.
-    - fd info 
+    - fd info
     - info on fd
 
 
@@ -261,7 +260,7 @@ nlu:
     - What are the features of RD.
     - Tell me the benefits of RD.
     - Provide me more knowledge about RD.
-    - rd 
+    - rd
     - info on rd's
     - rd info
 
@@ -272,7 +271,7 @@ nlu:
     - What are the features of tax-saver FD.
     - Tell me the benefits of tax-saver FD.
     - Provide me more knowledge about Tax-saver fixed deposit.
-    
+
 
 - intent: ncfd_info_ir
   examples: |
@@ -313,7 +312,7 @@ nlu:
     - Is NEFT available only for corporates?
     - Is NEFT available only for individuals ?
     - Is NEFT availed by some firm?
-    
+
 - intent: neft_limits
   examples: |
     - Is their any limit on NEFT transactions?
@@ -403,4 +402,101 @@ nlu:
     - Why UPI failed?
     - What to do if UPI fails?
 
+
+# GURLEEN'S CODE
+
+- intent: card_types
+  examples: |
+    - cards
+    - what are the types of cards?
+    - types of cards
+
+- intent: credit_card
+  examples: |
+    - credit card
+    - what is a credit card?
+    - tell me about credit card
+    - can you tell me what is a credit card?
+
+- intent: debit_card
+  examples: |
+    - debit card
+    - what is a debit card?
+    - tell me about debit card
+    - can you tell me what is a debit card?
+
+- intent: difference_between_cards
+  examples: |
+    - difference between credit and debit cards
+    - what is the difference between credit and debit cards?
+    - tell me the difference between credit and debit cards?
+    - differentiate between credit and debit cards
+    - credit card vs debit card
+    - debit card vs credit card
+
+- intent: cards_shivalik
+  examples: |
+    - what cards does shivalik bank offer?
+    - what cards does ssfb offer?
+    - shivalik cards?
+    - cards offered by shivalik bank?
+    - ssfb cards
+    - rupay
+    - rupay cards
+
+- intent: rupay_classic_debit_card
+  examples: |
+    - what is rupay classic debit card?
+    - can you tell me more about rupay classic debit card?
+    - rupay classic debit card
+
+- intent: rupay_platinum_debit_card
+  examples: |
+    - what is rupay platinum debit card?
+    - can you tell me more about rupay platinum debit card?
+    - rupay platinum debit card
+
+- intent: loan
+  examples: |
+    - what is a loan?
+    - loan
+    - tell me about a loan
+    - what are loans
+
+- intent: loan_types
+  examples: |
+    - what are the different types of loans?
+    - types of loans?
+    - are there different types of loans?
+    - loan types
+    - main types of loans offered by banks
+
+- intent: business_loan
+  examples: |
+    - what is a business loan?
+    - business loan
+    - tell me about business loan
+
+- intent: personal_loan
+  examples: |
+    - what is a personal loan?
+    - personal loan
+    - tell me about personal loan
+
+- intent: home_loan
+  examples: |
+    - what is a home loan?
+    - home loan
+    - mortgage loan
+    - tell me about home loan
+    - what is a mortgage loan?
+    - tell me about mortgage loan
+
+- intent: auto_loan
+  examples: |
+    - what is a vehicle loan?
+    - vehicle loan
+    - auto loan
+    - tell me about vehicle loan
+    - tell me about auto loan
 
