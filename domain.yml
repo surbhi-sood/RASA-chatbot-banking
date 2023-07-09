@@ -44,6 +44,19 @@ intents:
   - upi_process
   - upi_limits
   - upi_credited
+  - card_types
+  - credit_card
+  - debit_card
+  - difference_between_cards
+  - cards_shivalik
+  - rupay_classic_debit_card
+  - rupay_platinum_debit_card
+  - loan
+  - loan_types
+  - business_loan
+  - personal_loan
+  - home_loan
+  - auto_loan
 
 responses:
 
@@ -75,57 +88,57 @@ responses:
   - text: "Variants of current account available at SSFB are:   \n 1) Silver  \n  2) Gold  \n  3) Diamond  \n   4) Institutional"
 
   utter_silver_savings:
-  - text: "Features of silver variant of savings account in SSFB are :- \n 1) Classic RuPay Debit Card with no issuance charges 
-            \n 2) Free 5 Transactions per month (Including balance inquiry) at other Bank's ATM  
-            \n 3) Free 15 cheque leaves half yearly   
-            \n 4) Daily ATM cash withdrawal limit of ₹ 20,000   
+  - text: "Features of silver variant of savings account in SSFB are :- \n 1) Classic RuPay Debit Card with no issuance charges
+            \n 2) Free 5 Transactions per month (Including balance inquiry) at other Bank's ATM
+            \n 3) Free 15 cheque leaves half yearly
+            \n 4) Daily ATM cash withdrawal limit of ₹ 20,000
             \n 5) Daily purchase limit of ₹ 50,000 (Online or POS) "
 
   utter_gold_savings:
-  - text: "Features of gold variant of savings account in SSFB are :-   \n 1) Platinum Rupay Debit Card with no issuance charges   
-            \n 2) Free 20 Transactions per month (Including balance inquiry) at other Bank's ATM   
-            \n 3) Free 30 cheque leaves half yearly   
-            \n 4) Daily ATM cash withdrawal limit of ₹ 1,00,000   
-            \n 5) Daily purchase limit of ₹ 2,00,000 (Online or POS)   
-            \n 6) Accidental Insurance cover of ₹ 2,00,000 against Platinum RuPay Debit Card   
+  - text: "Features of gold variant of savings account in SSFB are :-   \n 1) Platinum Rupay Debit Card with no issuance charges
+            \n 2) Free 20 Transactions per month (Including balance inquiry) at other Bank's ATM
+            \n 3) Free 30 cheque leaves half yearly
+            \n 4) Daily ATM cash withdrawal limit of ₹ 1,00,000
+            \n 5) Daily purchase limit of ₹ 2,00,000 (Online or POS)
+            \n 6) Accidental Insurance cover of ₹ 2,00,000 against Platinum RuPay Debit Card
             \n 7) Complementary access in airport lounges* with your RuPay Platinum Debit Card"
 
   utter_diamond_savings:
-  - text: "Features of diamond variant of savings account in SSFB are :-  \n 1) Platinum Rupay Debit Card with no issuance & annual charges   
-            \n 2) Free 20 Transactions per month (Including balance inquiry) at other Bank's ATM   
-            \n 3) Free 60 cheque leaves half yearly   
-            \n 4) Daily ATM cash withdrawal limit of ₹ 1,00,000   
-            \n 5) Daily purchase limit of ₹ 2,00,000 (Online or POS)   
-            \n 6) Accidental Insurance cover of ₹ 2,00,000 against Platinum RuPay Debit Card   
+  - text: "Features of diamond variant of savings account in SSFB are :-  \n 1) Platinum Rupay Debit Card with no issuance & annual charges
+            \n 2) Free 20 Transactions per month (Including balance inquiry) at other Bank's ATM
+            \n 3) Free 60 cheque leaves half yearly
+            \n 4) Daily ATM cash withdrawal limit of ₹ 1,00,000
+            \n 5) Daily purchase limit of ₹ 2,00,000 (Online or POS)
+            \n 6) Accidental Insurance cover of ₹ 2,00,000 against Platinum RuPay Debit Card
             \n 7) Complementary access in airport lounges* with your RuPay Platinum Debit Card"
 
   utter_silver_current:
-  - text: "Features of silver variant of current account in SSFB are :-  \n 1) Free cash deposit every month up to 8 times of average balance maintained in the previous month   
-            \n 2) Free Rupay Classic Debit Card for first year   
-            \n 3) Upgrade to a RuPay Platinum Debit Card (charges applicable)   
+  - text: "Features of silver variant of current account in SSFB are :-  \n 1) Free cash deposit every month up to 8 times of average balance maintained in the previous month
+            \n 2) Free Rupay Classic Debit Card for first year
+            \n 3) Upgrade to a RuPay Platinum Debit Card (charges applicable)
             \n 4) No charges for first 10 cash withdrawals every month over the counter from Shivalik Bank branches"
 
   utter_gold_current:
-  - text: "Features of gold variant of current account in SSFB are :-  \n 1) Free cash deposit every month up to 12 times of average balance maintained in the previous month 
-           \n 2) Free 90 cheque leaves per quarter   
-           \n 3) Free DD Issuance up to ₹ 20 Lakhs per month   
-           \n 4) Free Rupay Classic Debit Card for first year   
-           \n 5) Upgrade to a RuPay Platinum Debit Card (charges applicable)   
+  - text: "Features of gold variant of current account in SSFB are :-  \n 1) Free cash deposit every month up to 12 times of average balance maintained in the previous month
+           \n 2) Free 90 cheque leaves per quarter
+           \n 3) Free DD Issuance up to ₹ 20 Lakhs per month
+           \n 4) Free Rupay Classic Debit Card for first year
+           \n 5) Upgrade to a RuPay Platinum Debit Card (charges applicable)
            \n 6) Unlimited cash withdrawals every month over the counter from Shivalik Bank branches"
 
   utter_diamond_current:
-  - text: "Features of diamond variant of current account in SSFB are :-  \n 1) Free cash deposit every month up to 15 times of average balance maintained in the previous month   
-           \n 2) Free 150 cheque leaves per quarter   
-           \n 3) Free Rupay Platinum Debit Card for first year   
-           \n 4) Free DD Issuance up to ₹ 50 Lakhs per month   
+  - text: "Features of diamond variant of current account in SSFB are :-  \n 1) Free cash deposit every month up to 15 times of average balance maintained in the previous month
+           \n 2) Free 150 cheque leaves per quarter
+           \n 3) Free Rupay Platinum Debit Card for first year
+           \n 4) Free DD Issuance up to ₹ 50 Lakhs per month
            \n 5) Unlimited cash withdrawals every month over the counter from Shivalik Bank branches"
 
   utter_institutional_current:
-  - text: "Features of institutional variant of current account in SSFB are :- \n 1) Unlimited free NEFT/RTGS/IMPS/Demand Drafts issuance   
-           \n 2) Free cash deposit every month up to 15 times of average balance maintained in the previous month   
-           \n 3) Unlimited cash withdrawals every month over the counter from Shivalik Bank branches   
-           \n 4) Unlimited free cheque leaves   
-           \n 5) Free Rupay Platinum Debit Card for first year   
+  - text: "Features of institutional variant of current account in SSFB are :- \n 1) Unlimited free NEFT/RTGS/IMPS/Demand Drafts issuance
+           \n 2) Free cash deposit every month up to 15 times of average balance maintained in the previous month
+           \n 3) Unlimited cash withdrawals every month over the counter from Shivalik Bank branches
+           \n 4) Unlimited free cheque leaves
+           \n 5) Free Rupay Platinum Debit Card for first year
            \n 6) Unlimited free transactions at other bank ATMs"
 
   utter_bank_account_open:
@@ -139,21 +152,21 @@ responses:
 
   utter_digital_mode:
   - text: "To open an account in Digital mode: \n Step 1: Get online: Open a Savings Account online with SSFB Bank through your mobile phone or laptop through InstaAccount.
-           \n Step 2: Keep the documents required for opening a Savings Account handy  These are: Aadhaar Card – You don’t need any other identity or address proof if you have Aadhaar Card  
-            Or  Identity Proof (driver’s license, passport etc.) Address Proof (driver’s license, passport etc.) PAN card 
-            Or Form 16, which is a certificate issued by the applicant’s employer, asserting that TDS has been deducted from your salary. This is required if the applicant does not have a PAN card. 
-            Two of the latest passport-sized photographs 
-            \n Step 3: Experience better banking with video KYC You can now submit your KYC documents and verify yourself online! It can all be done on a video call 
+           \n Step 2: Keep the documents required for opening a Savings Account handy  These are: Aadhaar Card – You don’t need any other identity or address proof if you have Aadhaar Card
+            Or  Identity Proof (driver’s license, passport etc.) Address Proof (driver’s license, passport etc.) PAN card
+            Or Form 16, which is a certificate issued by the applicant’s employer, asserting that TDS has been deducted from your salary. This is required if the applicant does not have a PAN card.
+            Two of the latest passport-sized photographs
+            \n Step 3: Experience better banking with video KYC You can now submit your KYC documents and verify yourself online! It can all be done on a video call
             with an SSFB Bank official. Just provide access to your location, camera and microphone on your smartphone, and you are all set to operate your new Savings Account!
-            \n Step 4: Explore the SSFB Bank Savings Account – to access banking services almost instantly 
+            \n Step 4: Explore the SSFB Bank Savings Account – to access banking services almost instantly
             \n Step 5: Login via NetBanking or MobileBanking to start transacting
             \n Once you receive your customer ID and account number you will be able to to start using your account and even transfer. Get started by logging into NetBanking and MobileBanking and creating a password."
 
   utter_physical_mode:
   - text: "To open an account in physical mode: \n Step 1: Go to your nearest SSFB branch.
-  \n Step 2: Keep the documents required for opening a Savings Account handy  These are: Aadhaar Card – You don’t need any other identity or address proof if you have Aadhaar Card  
-  Or  Identity Proof (driver’s license, passport etc.) Address Proof (driver’s license, passport etc.) PAN card 
-  Or Form 16, which is a certificate issued by the applicant’s employer, asserting that TDS has been deducted from your salary. This is required if the applicant does not have a PAN card. 
+  \n Step 2: Keep the documents required for opening a Savings Account handy  These are: Aadhaar Card – You don’t need any other identity or address proof if you have Aadhaar Card
+  Or  Identity Proof (driver’s license, passport etc.) Address Proof (driver’s license, passport etc.) PAN card
+  Or Form 16, which is a certificate issued by the applicant’s employer, asserting that TDS has been deducted from your salary. This is required if the applicant does not have a PAN card.
   Two of the latest passport-sized photographs \n Step 3: Get KYC done of your documents.
   \n Step 4: Get your account number and CID , also you can take your passbook once the account is created"
 
@@ -162,9 +175,9 @@ responses:
   - text: "The interest rate offered by SSFB on its savings account is between 3.50%-6.00% depending upon the amount deposited"
 
   utter_safe_deposit_locker:
-  - text: "SSFB offers you the facility to have a safe deposit locker with features like :- \n 1) Convenient locker sizes 
-           \n 2) Branches equipped with high security features 
-            \n 3) Simplified documentation process  
+  - text: "SSFB offers you the facility to have a safe deposit locker with features like :- \n 1) Convenient locker sizes
+           \n 2) Branches equipped with high security features
+            \n 3) Simplified documentation process
             \n 4) Dual key security"
 
 #ADITYA'S part of code
@@ -217,11 +230,11 @@ responses:
 #CODE by ANNU
 
   utter_money_transfer:
-  - text: "Online Fund Transfer through digital banking channels comes with options like \n 1) NEFT \n 2) RTGS \n 3) IMPS \n 4) UPI 
+  - text: "Online Fund Transfer through digital banking channels comes with options like \n 1) NEFT \n 2) RTGS \n 3) IMPS \n 4) UPI
             \n Which type of fund transfer do you want to know?"
 
   utter_neft_transfer:
-  - text: " National Electronic Funds Transfer (NEFT) is a mode of online funds transfer that is introduced by the Reserve Bank of India (RBI). 
+  - text: " National Electronic Funds Transfer (NEFT) is a mode of online funds transfer that is introduced by the Reserve Bank of India (RBI).
             \n It quickly transfers money between banks throughout India.
             \n NEFT Transfer is a money transfer system that allows individuals to transfer money from one bank account to another, using both online and offline mediums.
             \n NEFT is available 24x7, 365 days via Internet Banking/Mobile Banking.
@@ -284,10 +297,10 @@ responses:
             \n Do you want to transfer money through upi? "
 
   utter_upi_process:
-  - text: "For transfering money through upi you first need to \n 1) Launch the digital payment application and enter the recipient's UPI ID to send money using UPI ID. 
-          \n 2) The required transfer amount must then be entered, and your MPIN must be entered to confirm the transaction. 
+  - text: "For transfering money through upi you first need to \n 1) Launch the digital payment application and enter the recipient's UPI ID to send money using UPI ID.
+          \n 2) The required transfer amount must then be entered, and your MPIN must be entered to confirm the transaction.
           \n 3) Your payment will be finished in a brief amount of time.
-          Fast pace of life and digitization has changed the face of payments with UPI (Unified Payment Interface) for customers. UPI has made transactions like sending money to other bank accounts, payments through mobile numbers, bill payments/recharge and much more. 
+          Fast pace of life and digitization has changed the face of payments with UPI (Unified Payment Interface) for customers. UPI has made transactions like sending money to other bank accounts, payments through mobile numbers, bill payments/recharge and much more.
           \n Shivalik Bank account holders can link their bank account for UPI through any UPI Apps available today and transact securely.
           \n If you want to know about the limits put on money to be transfered through UPI please type 'yes'."
 
@@ -296,6 +309,63 @@ responses:
 
   utter_upi_credited:
   - text: "You will get the details of the transactions made in the transaction history. You can check it through you UPI app."
+
+#GURLEEN'S CODE
+
+  utter_card_type:
+  - text: "Which card do you want to know about : credit or debit?"
+
+  utter_credit_card:
+  - text: "A credit card is a payment card issued by a financial institution that allows cardholders to borrow funds to
+          make purchases, with the understanding that the borrowed amount needs to be repaid later, usually with interest."
+
+  utter_debit_card:
+  - text: "A debit card is a payment card issued by a bank or financial institution that allows cardholders to make
+          purchases using funds directly from their checking account. Unlike a credit card, it does not involve borrowing money."
+
+  utter_difference_of_cards:
+  - text: "A credit card allows you to borrow money from the card issuer, while a debit card allows you to make
+          purchases using funds directly from your bank account."
+
+  utter_shivalik_cards:
+  - text: "Shivalik Bank offers two types of debit cards: RuPay Classic Debit Card and RuPay Platinum Debit Card"
+
+  utter_rupay_classic_debit_card:
+  - text: "Shivalik Bank offers you RuPay Classic Debit Card loaded with rewards and merchant offers on offline & online
+        transactions. Now you can withdraw money from a wide network of ATMs with RuPay Classic Debit Card."
+
+  utter_rupay_platinum_debit_card:
+  - text: "Enter the world of privileges with an all-purpose RuPay Platinum Debit Card offered by Shivalik Bank which comes
+        with exclusive benefits for you. With RuPay Platinum Debit Card you can enjoy enhanced cash withdrawal limits,
+        special discounts from merchants, rewards and cash backs coming to you on utility bill payments."
+
+  utter_loan:
+  - text: "A loan is a borrowed amount of money that is repaid over time, usually with interest. It allows you to access funds
+        for various purposes while agreeing to repay the borrowed amount in installments."
+
+  utter_loan_types:
+  - text: "Common types of loans include:\n• Personal loans\n• Home loans\n• Auto loans\n• Business loans\nEach type serves
+        a different purpose and may have specific eligibility requirements and terms. What loan do you want to know about?"
+
+  utter_business_loan:
+  - text: "A business loan is a type of financing provided by a financial institution or lender to help businesses meet
+        their financial needs. It is typically used to fund business expansion, purchase equipment, manage cash flow, or cover other operational expenses."
+
+  utter_personal_loan:
+  - text: "Personal loans are borrowed funds provided by a lender to an individual for personal use. These loans are typically
+        unsecured, meaning they do not require collateral, and can be used for various purposes, such as debt consolidation, home improvements,
+        medical expenses, or unexpected financial needs."
+
+  utter_home_loan:
+    - text: "Home loans, also known as mortgage loans, are specifically designed for purchasing or refinancing real estate properties.
+        These loans are secured by the property being purchased, which serves as collateral. Mortgage loans often have long repayment
+        terms and allow individuals to finance a significant portion of the property's value."
+
+  utter_auto_loan:
+  - text: "Auto loans, also known as vehicle loans, are loans used to finance the purchase of vehicles, such as cars, motorcycles, or trucks.
+        These loans can be secured by the vehicle itself, meaning the lender has the right to repossess the vehicle if the borrower fails to repay the loan.
+        Auto loans typically have fixed repayment terms and interest rates based on the borrower's creditworthiness and the vehicle's value."
+
 
 session_config:
   session_expiration_time: 60
