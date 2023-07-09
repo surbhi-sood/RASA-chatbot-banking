@@ -44,6 +44,7 @@ nlu:
     - correct
     - ya
     - it was
+    - thank you 
 
 - intent: deny
   examples: |
@@ -142,7 +143,7 @@ nlu:
     - safe deposit locker
     - open a safe deposit locker
     - ssfb safe deposit locker
-    
+
 - intent: saving_account_variants
   examples: |
     - variants of savings account 
@@ -280,4 +281,126 @@ nlu:
     - What are the features of non-callable FD.
     - Tell me the benefits of non-callable FD.
     - Provide me more knowledge about non-callable fixed deposit.
+
+#CODE by ANNU
+
+- intent: online_money_transfer
+  examples: |
+    - how can i transfer money online?
+    - money transfer methods
+    - Can I transfer money online?
+    - Is it possible to transfer money online?
+
+- intent: neft_transfer
+  examples: |
+    - What is NEFT?
+    - Is NEFT a money transfer method?
+    - NEFT
+    - Tell me something about NEFT
+    - Can I transfer money through NEFT anytime i wish to?
+    - Is NEFT only online?
+    - Is NEFT available only in offline mode?
+
+- intent: neft_process
+  examples: |
+    - How can we transfer money by NEFT?
+    - How does NEFT work?
+    - Process of NEFT money transfer
+
+- intent: neft_eligibility
+  examples: |
+    - what is the eligibility criteria for NEFT?
+    - Is NEFT available only for corporates?
+    - Is NEFT available only for individuals ?
+    - Is NEFT availed by some firm?
+    
+- intent: neft_limits
+  examples: |
+    - Is their any limit on NEFT transactions?
+    - NEFT limits
+    - How can I transfer more than ₹10 Lakhs through NEFT?
+    - what are the limits on NEFT?
+
+- intent: neft_credited
+  examples: |
+    - How do I know if NEFT is credited?
+    - How do I know that my transaction is successful?
+    - Have my transaction failed or successful?
+
+- intent: imps_transfer
+  examples: |
+    - What is IMPS?
+    - Is IMPS a money transfer method?
+    - IMPS
+    - Tell me something about IMPS
+    - Can I transfer money through IMPS anytime i wish to?
+    - Is IMPS only online?
+
+- intent: imps_process
+  examples: |
+    - How can we transfer money by IMPS?
+    - How does IMPS work?
+    - Process of IMPS money transfer
+
+- intent: imps_limits
+  examples: |
+    - Is their any limit on IMPS transactions?
+    - IMPS limits
+    - How can I transfer more than ₹10 Lakhs through IMPS?
+    - what are the limits on IMPS?
+
+- intent: imps_credited
+  examples: |
+    - How do I know if IMPS is credited?
+    - How long does IMPS transfer take?
+    - How do I check my IMPS status?
+    - Why IMPS failed?
+    - What to do if IMPS fails?
+
+- intent: rtgs_transfer
+  examples: |
+    - What is RTGS?
+    - Is RTGS a money transfer method?
+    - RTGS
+    - Tell me something about RTGS
+    - Can I transfer money through RTGS anytime i wish to?
+    - Is RTGS only online?
+
+- intent: rtgs_limits
+  examples: |
+    - Is their any limit on RTGS transactions?
+    - RTGS limits
+    - How can I transfer more than ₹10 Lakhs through RTGS?
+    - what are the limits on RTGS?
+
+- intent: upi_transfer
+  examples: |
+    - What is UPI?
+    - Is UPI a money transfer method?
+    - UPI
+    - Tell me something about UPI
+    - Can I transfer money through UPI anytime i wish to?
+    - Is UPI only online?
+
+- intent: upi_process
+  examples: |
+    - How can we transfer money by UPI?
+    - How does UPI work?
+    - Process of UPI money transfer
+
+- intent: upi_limits
+  examples: |
+    - Is their any limit on UPI transactions?
+    - UPI limits
+    - How can I transfer more than ₹10 Lakhs through UPI?
+    - what are the limits on UPI?
+
+- intent: upi_credited
+  examples: |
+    - How do I know if UPI is credited?
+    - How long does UPI transfer take?
+    - How do I check my UPI status?
+    - Why UPI failed?
+    - What to do if UPI fails?
+
 
