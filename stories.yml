@@ -387,3 +387,242 @@ stories:
   - intent: upi_credited
   - action: utter_upi_credited
 
+#GURLEEN'S CODE
+
+- story: ask card type then ask credit card path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: card_types
+  - action: utter_card_type
+  - intent: credit_card
+  - action: utter_credit_card
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_affirm
+
+- story: ask card type then ask credit card path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: card_types
+  - action: utter_card_type
+  - intent: credit_card
+  - action: utter_credit_card
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_deny
+
+
+- story: ask card type then ask debit card path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: card_types
+  - action: utter_card_type
+  - intent: debit_card
+  - action: utter_debit_card
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_affirm
+
+- story: ask card type then ask debit card path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: card_types
+  - action: utter_card_type
+  - intent: debit_card
+  - action: utter_debit_card
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_deny
+
+- story: ask credit card path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: credit_card
+  - action: utter_credit_card
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_affirm
+
+- story: ask credit card path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: credit_card
+  - action: utter_credit_card
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_deny
+
+- story: ask debit card path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: debit_card
+  - action: utter_debit_card
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_affirm
+
+- story: ask debit card path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: debit_card
+  - action: utter_debit_card
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_deny
+
+
+- story: ask difference of cards path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: difference_between_cards
+  - action: utter_difference_of_cards
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_affirm
+
+- story: ask difference of cards path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: difference_between_cards
+  - action: utter_difference_of_cards
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_deny
+
+- story: ask cards by shivalik
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: cards_shivalik
+  - action: utter_shivalik_cards
+
+- story: ask rupay classic debit card path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: rupay_classic_debit_card
+  - action: utter_rupay_classic_debit_card
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_affirm
+
+- story: ask rupay classic debit card path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: rupay_classic_debit_card
+  - action: utter_rupay_classic_debit_card
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_deny
+
+- story: ask rupay platinum debit card path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: rupay_platinum_debit_card
+  - action: utter_rupay_platinum_debit_card
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_affirm
+
+- story: ask rupay platinum debit card path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: rupay_platinum_debit_card
+  - action: utter_rupay_platinum_debit_card
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_deny
+
+- story: ask loan
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: loan
+  - action: utter_loan
+  - action: utter_did_that_help
+
+- story: ask loan types then business loan
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: loan_types
+  - action: utter_loan_types
+  - intent: business_loan
+  - action: utter_business_loan
+  - action: utter_did_that_help
+
+- story: ask loan types then personal loan
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: loan_types
+  - action: utter_loan_types
+  - intent: personal_loan
+  - action: utter_personal_loan
+  - action: utter_did_that_help
+
+- story: ask loan types then auto loan
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: loan_types
+  - action: utter_loan_types
+  - intent: auto_loan
+  - action: utter_auto_loan
+  - action: utter_did_that_help
+
+- story: ask loan types then home loan
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: loan_types
+  - action: utter_loan_types
+  - intent: home_loan
+  - action: utter_home_loan
+  - action: utter_did_that_help
+
+- story: ask business loan
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: business_loan
+  - action: utter_business_loan
+  - action: utter_did_that_help
+
+- story: ask personal loan
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: personal_loan
+  - action: utter_personal_loan
+  - action: utter_did_that_help
+
+- story: ask auto loan
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: auto_loan
+  - action: utter_auto_loan
+  - action: utter_did_that_help
+
+- story: ask home loan
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: home_loan
+  - action: utter_home_loan
+  - action: utter_did_that_help
+
