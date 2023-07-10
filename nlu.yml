@@ -19,6 +19,7 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
+  
 
 - intent: goodbye
   examples: |
@@ -34,6 +35,7 @@ nlu:
     - see you later
     - tata
 
+
 - intent: affirm
   examples: |
     - yes
@@ -45,6 +47,14 @@ nlu:
     - ya
     - it was
     - thank you
+    - not bad
+    - ok
+    - thanks
+    - Thanks
+    - Thankss
+    - thank you
+    - ty
+    - thnx 
 
 - intent: deny
   examples: |
@@ -57,6 +67,7 @@ nlu:
     - not really
     - not at all
     - nope
+    - not good
 
 - intent: bot_challenge
   examples: |
@@ -285,10 +296,12 @@ nlu:
 
 - intent: online_money_transfer
   examples: |
-    - how can i transfer money online?
+    - transfer money online
     - money transfer methods
-    - Can I transfer money online?
-    - Is it possible to transfer money online?
+    - Can I transfer money online
+    - possible to transfer money online
+    - online fund transfer
+    - fund transfer online
 
 - intent: neft_transfer
   examples: |
@@ -499,6 +512,9 @@ nlu:
     - auto loan
     - tell me about vehicle loan
     - tell me about auto loan
+
+
+#nearest branch section
 
 - intent: branch
   examples: |
