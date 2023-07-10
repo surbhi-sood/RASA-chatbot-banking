@@ -487,7 +487,7 @@ nlu:
   examples: |
     - what is a home loan?
     - home loan
-    - mortgage loan
+    - mortage loan
     - tell me about home loan
     - what is a mortgage loan?
     - tell me about mortgage loan
@@ -499,4 +499,68 @@ nlu:
     - auto loan
     - tell me about vehicle loan
     - tell me about auto loan
+
+- intent: branch
+  examples: |
+    - what is my nearest branch?
+    - bank branch
+    - where is my nearest shivalik bank
+    - tell me where is bank
+    - where is bank
+
+- intent: state_not_present
+  examples: |
+    - Andhra Pradesh
+    - Arunachal Pradesh
+    - Assam
+    - Bihar
+    - Chhattisgarh
+    - Goa
+    - Gujarat
+    - Haryana
+    - Himachal Pradesh
+    - Jharkhand
+    - Karnataka
+    - Kerala
+    - Maharashtra
+    - Manipur
+    - Meghalaya
+    - Mizoram
+    - Nagaland
+    - Odisha
+    - Punjab
+    - Rajasthan
+    - Sikkim
+    - Tamil Nadu
+    - Tripura
+    - Telangana
+    - West Bengal
+    - Andaman & Nicobar
+    - Chandigarh
+    - Dadra & Nagar Haveli and Daman & Diu
+    - Delhi
+    - Jammu & Kashmir
+    - Ladakh
+    - Lakshadweep
+    - Puducherry
+
+- intent: branch_up
+  examples: |
+    - UP
+    - Uttar Pradesh
+    - up
+    - utter pradesh
+
+- intent: branch_mp
+  examples: |
+    - MP
+    - madhya pradesh
+    - mp
+    - madhya pradesh
+
+- intent: branch_uk
+  examples: |
+    - Uttrakhand
+    - uk
+    - uttrakhand
 
