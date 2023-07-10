@@ -57,6 +57,11 @@ intents:
   - personal_loan
   - home_loan
   - auto_loan
+  - branch
+  - state_not_present
+  - branch_up
+  - branch_mp
+  - branch_uk
 
 responses:
 
@@ -366,6 +371,54 @@ responses:
         These loans can be secured by the vehicle itself, meaning the lender has the right to repossess the vehicle if the borrower fails to repay the loan.
         Auto loans typically have fixed repayment terms and interest rates based on the borrower's creditworthiness and the vehicle's value."
 
+  utter_ask_state:
+  - text: "Which state are you currently located in?"
+
+  utter_branch_up:
+  - text: "Branches of Shivalik Bank in Utter Pradesh (U.P):
+           \nAnsari Road - 13/1207, Ansari Road, Saharanpur-247001 (U.P.)
+           \nGangoh - Rambagh Road, Gangoh-247341 Dist. Saharanpur (U.P.)
+           \nHakikat Nagar, Nr. Old Sales Tax Office, Saharanpur-247001 (U.P.)
+           \nDeoband - Plot No-780, Subhash Chowk, Railway Road, Deoband-247554 Dist. Saharanpur (U.P.)
+           \nAmbehta - Khera Bus Stand Main Road, Ambehta- 247340 Dist. Saharanpur (U.P.)
+           \nNoida27 - B-9, Ground Floor , Sector-18, Noida-201301 (U.P.)
+           \nMeerut - C-2/6, Nai Sadak, Shastri Nagar, Garh Road,Meerut-250004 (U.P.)
+           \nChilkana Road - Near Gyan Garden Colony,Chilkana Road, Saharanpur-247001 (U.P.)
+           \nNagal - G.T. Road, Near Canara Bank, Nagal,Dist. Saharanpur-247551 (U.P.)
+           \nSarsawa - 51 & 53, Gayatri Market, Ambala Road,Main Market,Opposite Punjab Sindh Bank, Sarsawa-247232 Dist. Saharanpur (U.P.)
+           \nNanauta - Gangoh Deoband Road (Opposite to nagar Panchayat) Nanauta, Saharanpur , 247452(U.P)
+           \nRampur - Near OLD PNB Building,Moh. Mahajanan, Rampur Maniharan-247451, Dist. Saharanpur (U.P.)
+           \nGhaziabad - 204/370, Ground floor, Opp Nehru Yuva Kendra, ICICI Bank, Ambedkar Road, Ghaziabad-201001(U.P)
+           \nNoida135 - WA 68,Upper GF,Near Shriram Millenium School,Sector 135, Noida-201301 (U.P.)
+           \nSharda Nagar - 1/1245 Wake Mohalla  Khalasi Line, Sharda Nagar, Saharanpur-247001 (U.P.)
+           \nMuzaffarnagar - Ground Floor 311,South Bhopa Road, Opposite LIC Office,Nai Mandi, Muzaffarnagar-251001 (U.P.)
+           \nIndrapuram - Raison Shopping Complex, AhinsaKhand-II,Near Ashiana Green, Indirapuram, Ghaziabad-201014 (U.P.)
+           \nKhatauli - Ward No. 8, Ganeshpuri, G.T. Road, Khatauli-251201,Distt. Muzaffarnagar (U.P.)
+           \nMadhonagar - Ground Floor, 1546 A/6, New Madhonagar, Saharanpur - 247001 (UP)
+           \nAlambagh - 565-KA/68, Amrudhi Bagh, Sringar Nagar, Alambagh, Lucknow 226005 (U.P.)
+           \nVikas Nagar - Vikas Nagar - 1/175 Sector-1 Vikas Nagar near Shiv Murti Lucknow 226022(U.P)
+           \nHapur - W – 29/73(1),Jal Nigam office, Opposite Collector Ganj, Railway Road, Hapur 245101  (U.P.)
+           \nShamli - 99/2, V.V.Internal College Road, Shamli-247776
+           \nNoida-45 - Shivalik Mercantile Co-operative Bank Ltd., SDA-8, Noida , Gautam Bhdhha Nagar, Uttar Pradesh-201303
+           \nMawana - 2422-2423, Hastinapur, Mawana,Near Subhash Chowk, Dist. Meerut 250401, (U.P.)
+           \nSardhana - 567-569,Chaudhary Market, Near Union Bank, Binoli Road, Sardhana, Dist. Meerut-250342 (U.P.)"
+
+  utter_branch_mp:
+  - text: "Branches of Shivalik Bank in Madhya Pradesh (M.P):
+            \nDhar - Plot No-112,  MG Road, Chota Rajwada, Dhar – 454001 (M.P.)
+            \nIndore - 6, Jagjivan Ram Nagar, Main Road, Patnipura Chowk,  Indore-452011 (M.P.)
+            \nKhargone - 73 Jawahar Nagar, Khargone-451001 (M.P.)
+            \nDewas - 8, Tarani colony, A.B. Road, Near Hotel Abhilasha, Dewas – 455001 (M.P.)
+            \nUjjain - 37, Ujjain Trade Centre, Ghatkarpar Marg, Near BJP Office, Freegunj, Ujjain – 456001 (M.P.)"
+
+  utter_branch_uk:
+  - text: "Branches of Shivalik Bank in Uttrakhand:
+            \nDehradun - Sai Kripa, Ground floor, 59/3, Rajpur road Dehradun-248001(Uttarakhand)
+            \nHaridwar - Ground Floor Plot No 1&2, New haridwar Colony, Ranipur more, Haridwar, Uttarakhand - 249407 (Uttarakhand)"
+
+  utter_branch_not present:
+  - text: "Shivalik Bank branch is not in the state you mentioned.
+          We have branches in Uttar Pradesh, Madhya Pradesh and Uttrakhand."
 
 session_config:
   session_expiration_time: 60
