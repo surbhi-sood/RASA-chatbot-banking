@@ -626,3 +626,38 @@ stories:
   - action: utter_home_loan
   - action: utter_did_that_help
 
+- story: ask nearest branch path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: branch
+  - action: utter_ask_state
+  - intent: branch_up
+  - action: utter_branch_up
+
+- story: ask nearest branch path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: branch
+  - action: utter_ask_state
+  - intent: branch_mp
+  - action: utter_branch_mp
+
+- story: ask nearest branch path 3
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: branch
+  - action: utter_ask_state
+  - intent: branch_uk
+  - action: utter_branch_uk
+
+- story: ask nearest branch path 4
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: branch
+  - action: utter_ask_state
+  - intent: state_not_present
+  - action: utter_branch_not present
