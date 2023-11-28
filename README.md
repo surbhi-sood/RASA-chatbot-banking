@@ -11,7 +11,7 @@ pip install rasa[full]
 
 This step will take time and will install all the necessary files.
 
-Step 2: Run the command          rasa init--no-prompt        in the virtual environment 
+Step 2: Run the command          rasa init --no-prompt        in the virtual environment 
 
 Step 3:  Now run the command       rasa train      in virtual environment
 
