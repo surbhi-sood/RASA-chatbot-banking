@@ -84,7 +84,7 @@ nlu:
     - open bank account
     - how to open bank account
     - account opening
-    - open account in SSFB
+    - open account in Surya
 
 - intent: saving_account
   examples: |
@@ -152,7 +152,7 @@ nlu:
   examples: |
     - safe deposit locker
     - open a safe deposit locker
-    - ssfb safe deposit locker
+    - Surya safe deposit locker
 
 - intent: saving_account_variants
   examples: |
@@ -160,7 +160,7 @@ nlu:
     - variants available of savings account
     - saving account variant
     - SA variant
-    - varieties of savings account in SSFB
+    - varieties of savings account in Surya
     - types of savings account
     - saving account types
 
@@ -171,7 +171,7 @@ nlu:
     - variants available of current account
     - current account variant
     - CA variant
-    - varieties of current account in SSFB
+    - varieties of current account in Surya
     - types of current account
     - current account types
 
@@ -214,7 +214,7 @@ nlu:
     - Interest rate
     - Rate of interest
     - what is the interest rate in your bank?
-    - Interest rate in SSFB
+    - Interest rate in Surya
 
 - intent: Fixed_deposit_ir
   examples: |
@@ -450,10 +450,10 @@ nlu:
 - intent: cards_shivalik
   examples: |
     - what cards does shivalik bank offer?
-    - what cards does ssfb offer?
+    - what cards does Surya offer?
     - shivalik cards?
     - cards offered by shivalik bank?
-    - ssfb cards
+    - Surya cards
     - rupay
     - rupay cards
 
