@@ -87,20 +87,20 @@ responses:
 # SURBHI'S part of code
 
   utter_saving_account_variants:
-  - text: "Variants of savings account available at SSFB are:  \n 1) Silver \n  2) Gold   \n  3) Diamond"
+  - text: "Variants of savings account available at Surya are:  \n 1) Silver \n  2) Gold   \n  3) Diamond"
 
   utter_current_account_variants:
-  - text: "Variants of current account available at SSFB are:   \n 1) Silver  \n  2) Gold  \n  3) Diamond  \n   4) Institutional"
+  - text: "Variants of current account available at Surya are:   \n 1) Silver  \n  2) Gold  \n  3) Diamond  \n   4) Institutional"
 
   utter_silver_savings:
-  - text: "Features of silver variant of savings account in SSFB are :- \n 1) Classic RuPay Debit Card with no issuance charges
+  - text: "Features of silver variant of savings account in Surya are :- \n 1) Classic RuPay Debit Card with no issuance charges
             \n 2) Free 5 Transactions per month (Including balance inquiry) at other Bank's ATM
             \n 3) Free 15 cheque leaves half yearly
             \n 4) Daily ATM cash withdrawal limit of ₹ 20,000
             \n 5) Daily purchase limit of ₹ 50,000 (Online or POS) "
 
   utter_gold_savings:
-  - text: "Features of gold variant of savings account in SSFB are :-   \n 1) Platinum Rupay Debit Card with no issuance charges
+  - text: "Features of gold variant of savings account in Surya are :-   \n 1) Platinum Rupay Debit Card with no issuance charges
             \n 2) Free 20 Transactions per month (Including balance inquiry) at other Bank's ATM
             \n 3) Free 30 cheque leaves half yearly
             \n 4) Daily ATM cash withdrawal limit of ₹ 1,00,000
@@ -109,7 +109,7 @@ responses:
             \n 7) Complementary access in airport lounges* with your RuPay Platinum Debit Card"
 
   utter_diamond_savings:
-  - text: "Features of diamond variant of savings account in SSFB are :-  \n 1) Platinum Rupay Debit Card with no issuance & annual charges
+  - text: "Features of diamond variant of savings account in Surya are :-  \n 1) Platinum Rupay Debit Card with no issuance & annual charges
             \n 2) Free 20 Transactions per month (Including balance inquiry) at other Bank's ATM
             \n 3) Free 60 cheque leaves half yearly
             \n 4) Daily ATM cash withdrawal limit of ₹ 1,00,000
@@ -118,13 +118,13 @@ responses:
             \n 7) Complementary access in airport lounges* with your RuPay Platinum Debit Card"
 
   utter_silver_current:
-  - text: "Features of silver variant of current account in SSFB are :-  \n 1) Free cash deposit every month up to 8 times of average balance maintained in the previous month
+  - text: "Features of silver variant of current account in Surya are :-  \n 1) Free cash deposit every month up to 8 times of average balance maintained in the previous month
             \n 2) Free Rupay Classic Debit Card for first year
             \n 3) Upgrade to a RuPay Platinum Debit Card (charges applicable)
             \n 4) No charges for first 10 cash withdrawals every month over the counter from Shivalik Bank branches"
 
   utter_gold_current:
-  - text: "Features of gold variant of current account in SSFB are :-  \n 1) Free cash deposit every month up to 12 times of average balance maintained in the previous month
+  - text: "Features of gold variant of current account in Surya are :-  \n 1) Free cash deposit every month up to 12 times of average balance maintained in the previous month
            \n 2) Free 90 cheque leaves per quarter
            \n 3) Free DD Issuance up to ₹ 20 Lakhs per month
            \n 4) Free Rupay Classic Debit Card for first year
@@ -132,14 +132,14 @@ responses:
            \n 6) Unlimited cash withdrawals every month over the counter from Shivalik Bank branches"
 
   utter_diamond_current:
-  - text: "Features of diamond variant of current account in SSFB are :-  \n 1) Free cash deposit every month up to 15 times of average balance maintained in the previous month
+  - text: "Features of diamond variant of current account in Surya are :-  \n 1) Free cash deposit every month up to 15 times of average balance maintained in the previous month
            \n 2) Free 150 cheque leaves per quarter
            \n 3) Free Rupay Platinum Debit Card for first year
            \n 4) Free DD Issuance up to ₹ 50 Lakhs per month
            \n 5) Unlimited cash withdrawals every month over the counter from Shivalik Bank branches"
 
   utter_institutional_current:
-  - text: "Features of institutional variant of current account in SSFB are :- \n 1) Unlimited free NEFT/RTGS/IMPS/Demand Drafts issuance
+  - text: "Features of institutional variant of current account in Surya are :- \n 1) Unlimited free NEFT/RTGS/IMPS/Demand Drafts issuance
            \n 2) Free cash deposit every month up to 15 times of average balance maintained in the previous month
            \n 3) Unlimited cash withdrawals every month over the counter from Shivalik Bank branches
            \n 4) Unlimited free cheque leaves
@@ -150,25 +150,25 @@ responses:
   - text: "OK! As an AI bot I can provide you with information on how to open a bank account. \n May I know what type of account do you wish to open ?"
 
   utter_saving:
-  - text: "SSFB provides you with the facility of opening a savings account in Physical as well as Digital mode. \n  Which mode of account opening shall I provide you information about?"
+  - text: "Surya provides you with the facility of opening a savings account in Physical as well as Digital mode. \n  Which mode of account opening shall I provide you information about?"
 
   utter_current:
-  - text: "SSFB provides you with the facility of opening a current account in Physical as well as Digital mode. \n Which mode of account opening shall I provide you information about?"
+  - text: "Surya provides you with the facility of opening a current account in Physical as well as Digital mode. \n Which mode of account opening shall I provide you information about?"
 
   utter_digital_mode:
-  - text: "To open an account in Digital mode: \n Step 1: Get online: Open a Savings Account online with SSFB Bank through your mobile phone or laptop through InstaAccount.
+  - text: "To open an account in Digital mode: \n Step 1: Get online: Open a Savings Account online with Surya Bank through your mobile phone or laptop through InstaAccount.
            \n Step 2: Keep the documents required for opening a Savings Account handy  These are: Aadhaar Card – You don’t need any other identity or address proof if you have Aadhaar Card
             Or  Identity Proof (driver’s license, passport etc.) Address Proof (driver’s license, passport etc.) PAN card
             Or Form 16, which is a certificate issued by the applicant’s employer, asserting that TDS has been deducted from your salary. This is required if the applicant does not have a PAN card.
             Two of the latest passport-sized photographs
             \n Step 3: Experience better banking with video KYC You can now submit your KYC documents and verify yourself online! It can all be done on a video call
-            with an SSFB Bank official. Just provide access to your location, camera and microphone on your smartphone, and you are all set to operate your new Savings Account!
-            \n Step 4: Explore the SSFB Bank Savings Account – to access banking services almost instantly
+            with an Surya Bank official. Just provide access to your location, camera and microphone on your smartphone, and you are all set to operate your new Savings Account!
+            \n Step 4: Explore the Surya Bank Savings Account – to access banking services almost instantly
             \n Step 5: Login via NetBanking or MobileBanking to start transacting
             \n Once you receive your customer ID and account number you will be able to to start using your account and even transfer. Get started by logging into NetBanking and MobileBanking and creating a password."
 
   utter_physical_mode:
-  - text: "To open an account in physical mode: \n Step 1: Go to your nearest SSFB branch.
+  - text: "To open an account in physical mode: \n Step 1: Go to your nearest Surya branch.
   \n Step 2: Keep the documents required for opening a Savings Account handy  These are: Aadhaar Card – You don’t need any other identity or address proof if you have Aadhaar Card
   Or  Identity Proof (driver’s license, passport etc.) Address Proof (driver’s license, passport etc.) PAN card
   Or Form 16, which is a certificate issued by the applicant’s employer, asserting that TDS has been deducted from your salary. This is required if the applicant does not have a PAN card.
@@ -177,10 +177,10 @@ responses:
 
 
   utter_saving_interest:
-  - text: "The interest rate offered by SSFB on its savings account is between 3.50%-6.00% depending upon the amount deposited"
+  - text: "The interest rate offered by Surya on its savings account is between 3.50%-6.00% depending upon the amount deposited"
 
   utter_safe_deposit_locker:
-  - text: "SSFB offers you the facility to have a safe deposit locker with features like :- \n 1) Convenient locker sizes
+  - text: "Surya offers you the facility to have a safe deposit locker with features like :- \n 1) Convenient locker sizes
            \n 2) Branches equipped with high security features
             \n 3) Simplified documentation process
             \n 4) Dual key security"
@@ -188,19 +188,19 @@ responses:
 #ADITYA'S part of code
 
   utter_ir:
-  - text: "I can provide you the information of interest rates offered by SSFB on its Saving's account, FD's, RD's, Tax-saver FD's and non-callable FD's. For which do you want to know the interest rate? "
+  - text: "I can provide you the information of interest rates offered by Surya on its Saving's account, FD's, RD's, Tax-saver FD's and non-callable FD's. For which do you want to know the interest rate? "
 
   utter_fd:
-  - text: "The FD interest rate offered by SSFB is 4.00% - 5.50% p.a."
+  - text: "The FD interest rate offered by Surya is 4.00% - 5.50% p.a."
 
   utter_rd:
-  - text: "The RD interest rate offered by SSFB is 5.75% - 8.00% depending upon the tenure."
+  - text: "The RD interest rate offered by Surya is 5.75% - 8.00% depending upon the tenure."
 
   utter_ncfd:
-  - text: "The interest rate on non-callable fixed deposit offered by SSFB is upto 8.65% p.a."
+  - text: "The interest rate on non-callable fixed deposit offered by Surya is upto 8.65% p.a."
 
   utter_tsfd:
-  - text: "The interest rate on tax-saver fixed deposit offered by SSFB is upto 8.5% p.a. with tax benefits."
+  - text: "The interest rate on tax-saver fixed deposit offered by Surya is upto 8.5% p.a. with tax benefits."
 
   utter_inffd:
   - text: " Fixed Deposit-  \n  1)Flexible tenure \n 2)Convenient to liquidate via premature withdrawal option \n 3)Enjoy quarterly compounding interest by opting for Re-investment FD \n 4)Get regular income with monthly/quarterly payout options \n  5)FD auto-renewal option  \n   6)Higher rate of interest for senior citizens"
